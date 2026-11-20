@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>منتخب مصر</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ce1126;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #ce1126, #111);
+        }
+
+        .hero h2 {
+            font-size: 45px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #e63946;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #252525;
+            padding: 25px;
+            width: 220px;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            color: #ff4b5c;
+        }
+
+        button {
+            background: #ce1126;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #222;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🇪🇬 منتخب مصر</h1>
+        <p>Egypt National Football Team</p>
+    </header>
+
+    <nav>
+        <a href="#about">عن المنتخب</a>
+        <a href="#players">اللاعبون</a>
+        <a href="#trophies">البطولات</a>
+    </nav>
+
+    <div class="hero">
+        <h2>EGYPT NATIONAL TEAM</h2>
+        <p>الفراعنة .. تاريخ من المجد والبطولات</p>
+        <h1>🇪🇬</h1>
+    </div>
+
+    <section id="about">
+        <h2>عن منتخب مصر</h2>
+        <p>
+            منتخب مصر هو ممثل جمهورية مصر العربية في كرة القدم.
+            ويعتبر من أكبر وأعرق المنتخبات في القارة الإفريقية.
+        </p>
+    </section>
+
+    <section id="players">
+        <h2>نجوم المنتخب</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>محمد صلاح</h3>
+                <p>نجم منتخب مصر وأحد أشهر لاعبي العالم.</p>
+            </div>
+
+            <div class="card">
+                <h3>عمر مرموش</h3>
+                <p>أحد أبرز المواهب المصرية.</p>
+            </div>
+
+            <div class="card">
+                <h3>مصطفى محمد</h3>
+                <p>مهاجم منتخب مصر.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="trophies">
+        <h2>إنجازات الفراعنة</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>7 مرات</h3>
+                <p>بطل كأس الأمم الإفريقية.</p>
+            </div>
+
+            <div class="card">
+                <h3>3 مرات</h3>
+                <p>المشاركة في كأس العالم.</p>
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <button onclick="alert('تحيا مصر 🇪🇬')">
+            تحيا مصر
+        </button>
+
+    </section>
+
+    <footer>
+        <p>Egypt National Team 🇪🇬</p>
+        <p>© 2026 جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
